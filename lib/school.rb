@@ -16,6 +16,10 @@ end
     @roster[grade]<< student
   end
   end
+  
+  def grade(grade)
+    @roster[grade]
+  end
 
   
 end

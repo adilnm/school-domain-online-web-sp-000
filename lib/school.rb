@@ -8,6 +8,7 @@ def roster
   @roster
 end
 
-def 
+def add_student(student,grade)
+  
 end
 

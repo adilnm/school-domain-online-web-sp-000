@@ -9,9 +9,12 @@ def roster
 end
 
   def add_student(student,grade)
-    if()
+    if(@roster.has_key?(student))
+      @roster[grade]<< student
+    else
     @roster[grade]=[]
     @roster[grade]<< student
+  end
   end
 
   
